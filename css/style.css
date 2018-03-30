@@ -559,7 +559,7 @@ ul {
 .main-footer {
   display: flex;
   justify-content: center;
-  width: 1440;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -881,29 +881,52 @@ ul {
 	display: flex;
 }
 
-.fieldset-sorting-properties-wrapper legend {
+
+.fieldset-sorting-grid-wrapper {
+	margin-bottom: 38px;
+}
+
+.fieldset-sorting-grid-wrapper .adaptive {
   margin-bottom: -6px;
 }
 
+.fieldset-sorting-grid-wrapper .fix {
+  margin-bottom: -6px;
+}
+
+.fieldset-sorting-grid-wrapper .rubber {
+  margin-bottom: 4px;
+}
+
+.fieldset-sorting-grid-wrapper legend {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+  margin-bottom: -8px;
+}
+
+
+
+.fieldset-sorting-properties-wrapper legend {
+  margin-bottom: -8px;
+}
+
 .fieldset-sorting-properties-wrapper .slider-checkox {
-  margin-bottom: -1px;
+  margin-bottom: -5px;
 }
 
 .fieldset-sorting-properties-wrapper .advantages-checkbox {
-  margin-bottom: -3px;
+  margin-bottom: -7px;
 }
 
 .fieldset-sorting-properties-wrapper .news-checkbox {
-  margin-bottom: -1px;
+  margin-bottom: -5px;
 }
 
 .fieldset-sorting-properties-wrapper .gallery-checkbox {
-  margin-bottom: -4px;
+  margin-bottom: -6px;
   margin-left: 1px;
-}
-
-.fieldset-sorting-properties-wrapper .basket-checkbox {
-  margin-bottom: 4px;
 }
 
 
@@ -1130,15 +1153,6 @@ ul {
 	opacity: 0.1;
 }
 
-.fieldset-sorting-grid-wrapper legend {
-	font-size: 18px;
-	line-height: 30px;
-	font-weight: 700;
-	text-transform: uppercase;
-  margin-bottom: -8px;
-}
-
-
 
 .form legend {
 	font-size: 18px;
@@ -1146,19 +1160,6 @@ ul {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-
-.fieldset-sorting-grid-wrapper .adaptive  {
-  margin-bottom: -1px;
-}
-
-.fieldset-sorting-grid-wrapper .fix {
-  margin-bottom: -3px;
-}
-
-.fieldset-sorting-grid-wrapper .rubber {
-  margin-bottom: 4px;
-}
-
 
 
 .form label {
@@ -1169,9 +1170,9 @@ ul {
 	color: #283136;
 }
 
-.price-controls p {
+.price-controls span {
   position: relative;
-  bottom: 9px;
+  top: 6px;
   margin-bottom: 0;
   width: 10px;
   height: 20px;
@@ -1190,12 +1191,6 @@ ul {
   margin-top: -4px;
   margin-bottom: -6px;
 }
-
-
-.fieldset-sorting-grid-wrapper {
-	margin-bottom: 42px;
-}
-
 
 
 .shop-catalog {

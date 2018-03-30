@@ -5,7 +5,7 @@
   <title>Нёрдс.Магазин</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <div class="main-wrapper">
@@ -46,11 +46,11 @@
                 </div>
                 <div class="price-controls">
                   <label>
-                    <p>от</p>
+                    <span>от</span>
                     <input class="min-price" name="min-price" type="text" value="0">
                   </label>
                   <label>
-                    <p>до</p>
+                    <span>до</span>
                     <input class="max-price" name="max-price" type="text" value="15 000">
                   </label>
                 </div>
@@ -61,25 +61,25 @@
             <fieldset>
               <legend>Сетка:</legend>
               <ul>
-                <li class="filter-option">
+                <li class="filter-option adaptive">
                   <label class="filter-input-radio">
                     <input class="visually-hidden" type="radio" name="grid" value="adaptive" checked>
                     <span class="radio-indicator"></span>
-                    <p class="adaptive">Адаптивная</p>
+                    <span class="adaptive">Адаптивная</span>
                   </label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-option fix">
                   <label class="filter-input-radio">
                     <input class="visually-hidden" type="radio" name="grid" value="fixed">
                     <span class="radio-indicator"></span>
-                    <p class="fix">Фиксированная</p>
+                    <span>Фиксированная</span>
                   </label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-option rubber">
                   <label class="filter-input-radio">
                     <input class="visually-hidden" type="radio" name="grid" value="rubber">
                     <span class="radio-indicator"></span>
-                    <p class="rubber">Резиновая</p>
+                    <span>Резиновая</span>
                   </label>
                 </li>
               </ul>
@@ -89,39 +89,39 @@
             <fieldset>
               <legend>Особенности:</legend>
               <ul>
-                <li class="filter-option">
+                <li class="filter-option slider-checkox">
                   <label class="filter-input-checkbox">
                     <input class="visually-hidden" type="checkbox" name="slider" checked>
                     <span class="checkbox-indicator"></span>
-                    <p class="slider-checkox">Слайдер</p>
+                    <span>Слайдер</span>
                   </label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-option advantages-checkbox">
                   <label class="filter-input-checkbox">
                     <input class="visually-hidden" type="checkbox" name="advantages">
                     <span class="checkbox-indicator"></span>
-                    <p class="advantages-checkbox">Блок преимуществ</p>
+                    <span>Блок преимуществ</span>
                   </label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-option news-checkbox">
                   <label class="filter-input-checkbox">
                     <input class="visually-hidden" type="checkbox" name="news" checked>
                     <span class="checkbox-indicator"></span>
-                    <p class="news-checkbox">Новости</p>
+                    <span>Новости</span>
                   </label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-option gallery-checkbox">
                   <label class="filter-input-checkbox">
                     <input class="visually-hidden" type="checkbox" name="gallery">
                     <span class="checkbox-indicator"></span>
-                    <p class="gallery-checkbox">Галерея</p>
+                    <span>Галерея</span>
                   </label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-option basket-checkbox">
                   <label class="filter-input-checkbox">
                     <input class="visually-hidden" type="checkbox" name="basket">
                     <span class="checkbox-indicator"></span>
-                    <p class="basket-checkbox">Корзина</p>
+                    <span>Корзина</span>
                   </label>
                 </li>
               </ul>
@@ -253,5 +253,6 @@
         </div>
       </div>
     </footer>
-  </body>
-  </html>
+  </div>
+</body>
+</html>
