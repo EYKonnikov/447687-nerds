@@ -1,4 +1,5 @@
 body {
+
   margin: 0px;
   padding: 0px;
   font-family: "Roboto", Arial, sans-serif;
@@ -74,13 +75,11 @@ ul {
   width: 1440px;
   margin: 0 auto;
   padding: 0;
-
 }
 
 
 .main-header {
   margin: 0 auto;
-  width: 1440px;
   background-color: #eeeeee;
 
 }
@@ -180,12 +179,12 @@ ul {
 
 .main-slider-wrapper {
 
-  width: 1440px;
+
   margin: 0 auto;
 }
 
 .main-slider {
-  width: 1440px;
+
 
   margin-top: -399px;
   margin-bottom: 0px;
@@ -194,7 +193,7 @@ ul {
 
 .slider-1 {
   position: border-box;
-  width: 1440px;
+
   margin: 0 auto;
 }
 
@@ -215,6 +214,10 @@ ul {
 .slide-2 {
   padding: 0;
   width: 290px;
+}
+
+.slide-2-paragraph {
+  width: 410px;
 }
 
 .slider-buttons #button-1,
@@ -725,7 +728,6 @@ ul {
 .modal-window {
   display: none;
 	position: fixed;
-
 	background-color: #ffffff;
 	box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
 }
@@ -812,9 +814,11 @@ ul {
   color: #ed7477;
 }
 
-.write-us-item input[type="text"]::placeholder {
+.write-us-item input[type="text"]::placeholder,
+.write-us-item input[type="email"]::placeholder {
 	color: rgba(68, 68, 68, 0.5);
 }
+
 
 .write-us-item textarea {
 	width: 760px;
@@ -826,8 +830,9 @@ ul {
 	box-sizing: border-box;
 }
 
-.write-us-button {
+.modal-window .write-us-button {
 	width: 260px;
+  margin-right: 500px;
 	border: none;
 	text-align: center;
   margin-top: -10px;
@@ -886,7 +891,10 @@ ul {
 
 /*---------------------------INNER-HTML----------------------------*/
 
-
+.wrapper-inner-page {
+  width: 1440px;
+  overflow: hidden;
+}
 
 
 .site-navigation-current {

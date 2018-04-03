@@ -5,7 +5,7 @@
   <title>HTML Academy: Нёрдс</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <div class="main-wrapper">
@@ -54,7 +54,7 @@
               </li>
               <li class="slide-2 visually-hidden">
                 <h2>Любим математику как никто другой</h2>
-                <p>Никакого креатива, только математические формулы<br>для расчета идеальных пропорций.</p>
+                <p class="slide-2-paragraph">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
                 <p><a class="button" href="#">Узнать больше</a></p>
                 <div class="slide-wrapper">
                   <img src="img/slide2.png" width="698" height="413" alt="Второй слайд">
@@ -202,16 +202,16 @@
             <h2 class="write-us-title">Напишите нам</h2>
             <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
               <p class="write-us-item">
-                <input id="write-us-name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
                 <label for="write-us-name">Ваше имя:</label>
+                <input id="write-us-name" type="text" name="name" placeholder="Имя Фамилия">
               </p>
               <p class="write-us-item">
-                <input id="write-us-email" type="email" name="email" placeholder="Для отправки ответа">
                 <label for="write-us-email">Ваш e-mail:</label>
+                <input id="write-us-email" type="email" name="email" placeholder="email@example.com">
               </p>
               <p class="write-us-item">
-                <textarea id="write-us-letter" name="text">В свободной форме</textarea>
                 <label for="write-us-letter">Текст письма:</label>
+                <textarea id="write-us-letter" name="text">В свободной форме</textarea>
               </p>
               <button class="button button-red write-us-button" type="submit">Отправить</button>
             </form>
